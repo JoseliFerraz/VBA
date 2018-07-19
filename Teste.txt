@@ -1,0 +1,15 @@
+# 1 Codigo
+'Codigo teste para algoritmo simples
+Sub resultado()
+    For i = 2 To 4 Step 1
+    ' If Cells(i, 1).Value = "pera" Then
+        Cells(i, 4).Value = Cells(i, 2).Value * Cells(i, 3).Value
+    ' End If
+    Next i
+End Sub
+' Codigo para limpar
+Sub limpar()
+ For i = 2 To 4 Step 1
+   Cells(i, 4).Value = ""
+   Next i
+End Sub
